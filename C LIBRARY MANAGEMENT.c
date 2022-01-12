@@ -150,9 +150,8 @@ int main()
                 printf("\t\t\t\tNAME         :%s",l[i].borrowername);
                 printf("\t\t\t\tBOOK NAME    :%s",l[i].borrowedbook);
                 printf("\t\t\t\tBORROWED DATE:%s",l[i].borroweddate);
-                printf("\t\t\t\tDUE DATE     :%s",l[i].duedate);
+                printf("\t\t\tDUE DATE     :%s",l[i].duedate);
                 printf("\n-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-                }
             }
             break;
          case 6:
@@ -163,6 +162,7 @@ int main()
         default:
             printf("\nInvalid choice!Please choose between 1 to 6");
    }
+}
 }
 }
 
